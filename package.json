@@ -1,26 +1,31 @@
 {
   "name": "@ustack/uskin-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Uskin Icon fonts",
-  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "build": "grunt build",
     "prepublish": "grunt build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hex2dec/icon-fonts.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hex2dec/icon-fonts/issues"
-  },
-  "homepage": "https://github.com/hex2dec/icon-fonts#readme",
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-cli": "^1.2.0",
     "grunt-webfont": "^1.6.0"
+  },
+  "author": "William Huang <ai.william@outlook.com>",
+  "keywords": [
+    "uskin",
+    "icons",
+    "icon-fonts",
+    "svg-icon",
+    "grunt-webfont"
+  ],
+  "homepage": "https://github.com/unitedstack/uskin-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitedstack/uskin-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unitedstack/uskin-icons/issues"
   }
 }
